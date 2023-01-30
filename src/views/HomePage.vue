@@ -3,7 +3,7 @@
     <section class="summary q-mt-lg q-pa-md">
       <div class="row justify-center">
         <div class="col-12 col-md-6">
-          <h1>A NY based Tech Professional</h1>
+          <h1>Hello! I'm Connor.</h1>
         </div>
         <div class="my-pic relative-position col-12 col-md-2">
           <div class="headshot-image-container">
@@ -19,7 +19,7 @@
     </section>
     <section class="who-am-i q-mt-lg q-pb-lg">
       <div class="row justify-center">
-        <div class="col-6">
+        <div class="col-9 col-sm-6">
           <h2 class="text-center">Who Am I?</h2>
           <p class="text-body1">As a professional web developer, I have a strong focus on front-end technologies and have extensive experience in building highly interactive and user-friendly websites. My expertise lies in HTML, CSS, JavaScript, and modern frameworks such as Vue and React. I have a keen eye for design and pay close attention to details, ensuring that the end result meets the highest standards of quality and usability.</p>
           <p class="text-body1">In addition to front-end development, I also have experience in developing e-commerce websites and integrating them with payment gateways and shipping providers. I am knowledgeable in analytics, tagging, and A/B testing, allowing me to provide valuable insights into website performance and user behavior. I understand the importance of data-driven decisions and always strive to provide the best possible user experience through continuous optimization and improvement.</p>
@@ -61,7 +61,7 @@
       </div>
       <div class="row justify-center items-center q-mb-lg">
         <div class="col col-md-6">
-          <p class="second-p text-body1 text-center text-weight-medium q-mt-lg">Has expert knowledge of E-Commerce development platforms and understands how to integrate with third party API solutions to gather business metrics and deliver value to stakeholders.</p>
+          <p class="second-p text-body1 text-center text-weight-medium q-mt-lg">Has expert knowledge of E-Commerce development platforms and understands how to integrate with third party API solutions to deliver exceptional customer experiences.</p>
         </div>
       </div>
       <div class="row justify-center items-center" style="margin-top: 3rem;">
@@ -80,7 +80,7 @@
       </div>
       <div class="row justify-center items-center q-mb-lg">
         <div class="col col-md-6">
-          <p class="third-p text-body1 text-center text-weight-medium q-mt-lg">Working closely with digital and marketing teams to implement Analytics and tagging solutions to gather valuable business and customer insights to enable organizations to make high impact business desicions.</p>
+          <p class="third-p text-body1 text-center text-weight-medium q-mt-lg">Works closely with digital marketing and product teams to implement Analytics and tagging solutions to gather valuable business and customer insights to enable organizations to make high impact business desicions.</p>
         </div>
       </div>
     </section>
@@ -123,13 +123,13 @@ export default {
       flex-direction: column-reverse;
     }
     .summary .my-pic {
-      margin-left: 60%;
+      margin-left: 50%;
     }
     .value-prop-images {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       flex-wrap: wrap;
-      height: fit-content;
     }
     .value-prop-images img {
       position: relative;

@@ -7,7 +7,7 @@
         </div>
       </a>
       <nav class="menu">
-        <ul class="text-h6">
+        <ul>
           <li class="q-mr-lg"><router-link :to="{name: 'HomePage'}">Me</router-link></li>
           <li class="q-mr-lg"><router-link :to="{name: 'MyWork'}">My Work</router-link></li>
           <li class="q-mr-lg"><router-link :to="{name: 'ContactPage'}">Contact</router-link></li>

@@ -61,7 +61,9 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (max-width: 960px) {
 h1 {margin-top: 120px;}
+}
 </style>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -78,6 +80,10 @@ h1 {margin-top: 120px;}
   }
 
   @media screen and (max-width: 960px) {
+    .p-timeline {
+      max-width: 375px;
+      margin: 0 auto;
+    }
     .p-timeline-event {
       flex-direction: row-reverse;
     }
