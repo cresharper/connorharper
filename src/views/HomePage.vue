@@ -44,7 +44,7 @@
       </div>
       <div class="row justify-center items-center q-mb-lg">
         <div class="col col-md-6">
-          <p class="text-body1 text-center text-weight-medium q-mt-lg">7+ years of professional experience working in a variety of Front End technologies. Is known for producing at a rapid pace and is able to change course quickly in an agile environment. Has a proven track record of understanding end users and formulating creative solutions to problems.</p>
+          <p class="first-p text-body1 text-center text-weight-medium q-mt-lg">7+ years of professional experience working in a variety of Front End technologies. Is known for producing at a rapid pace and is able to change course quickly in an agile environment. Has a proven track record of understanding end users and formulating creative solutions to problems.</p>
         </div>
       </div>
       <div class="ecommerce-skills row justify-center items-center">
@@ -61,7 +61,7 @@
       </div>
       <div class="row justify-center items-center q-mb-lg">
         <div class="col col-md-6">
-          <p class="text-body1 text-center text-weight-medium q-mt-lg">Has expert knowledge of E-Commerce development platforms and understands how to integrate with third party API solutions to gather business metrics and deliver value to stakeholders.</p>
+          <p class="second-p text-body1 text-center text-weight-medium q-mt-lg">Has expert knowledge of E-Commerce development platforms and understands how to integrate with third party API solutions to gather business metrics and deliver value to stakeholders.</p>
         </div>
       </div>
       <div class="row justify-center items-center" style="margin-top: 3rem;">
@@ -80,7 +80,7 @@
       </div>
       <div class="row justify-center items-center q-mb-lg">
         <div class="col col-md-6">
-          <p class="text-body1 text-center text-weight-medium q-mt-lg">Working closely with digital and marketing teams to implement Analytics and tagging solutions to gather valuable business and customer insights to enable organizations to make high impact business desicions.</p>
+          <p class="third-p text-body1 text-center text-weight-medium q-mt-lg">Working closely with digital and marketing teams to implement Analytics and tagging solutions to gather valuable business and customer insights to enable organizations to make high impact business desicions.</p>
         </div>
       </div>
     </section>
@@ -135,6 +135,9 @@ export default {
       position: relative;
       top: 0;
       left: 0;
+    }
+    .first-p, .third-p {
+      margin-top: 4rem;
     }
   }
 </style>
