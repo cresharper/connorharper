@@ -21,8 +21,8 @@
       <div class="row justify-center">
         <div class="col-6">
           <h2 class="text-center">Who Am I?</h2>
-          <p class="text-body1">I am a Web Developer and Designer that has experience helping businesses and individuals acheive their goals related to digital presence. I've taken on projects ranging from making landing pages for local bands to developing the Front End for corporation websites with hundreds of thousands of visitors. There isn't an assingment that scares me, and whatever I don't know, I will learn and get the job done.</p>
-          <p class="text-body1">My value extends beyond technical ability - I also provide business value with my skills in A/B testing, analytics implementations, performance improvement initiatives as well as User Experience and truly understanding customers and what they need.</p>
+          <p class="text-body1">As a professional web developer, I have a strong focus on front-end technologies and have extensive experience in building highly interactive and user-friendly websites. My expertise lies in HTML, CSS, JavaScript, and modern frameworks such as Vue and React. I have a keen eye for design and pay close attention to details, ensuring that the end result meets the highest standards of quality and usability.</p>
+          <p class="text-body1">In addition to front-end development, I also have experience in developing e-commerce websites and integrating them with payment gateways and shipping providers. I am knowledgeable in analytics, tagging, and A/B testing, allowing me to provide valuable insights into website performance and user behavior. I understand the importance of data-driven decisions and always strive to provide the best possible user experience through continuous optimization and improvement.</p>
         </div>
       </div>
     </section>
@@ -30,7 +30,7 @@
       <h2 class="text-center">How can I benefit you or your organization?</h2>
       <div class="row justify-center items-center">
         <div class="col-12 col-md-6">
-          <h3 class="text-center">Front End Development</h3>
+          <h3 class="text-center">Web Development</h3>
         </div>
         <div class="col-12 col-md-6">
           <div class="value-prop-images">
@@ -44,11 +44,11 @@
       </div>
       <div class="row justify-center  items-center q-mb-lg">
         <div class="col col-md-6">
-          <p class="text-body1 text-center text-weight-medium q-mt-lg">7+ years of professional experience working in a variety of Front End technologies. Is known for learning at a rapid pace and is able to learn quickly. Has a proven track record of understanding end users and formulating creative solutions to problems.</p>
+          <p class="text-body1 text-center text-weight-medium q-mt-lg">7+ years of professional experience working in a variety of Front End technologies. Is known for producing at a rapid pace and is able to change course quickly in an agile environment. Has a proven track record of understanding end users and formulating creative solutions to problems.</p>
         </div>
       </div>
       <div class="row justify-center items-center">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-5">
           <div class="value-prop-images ecommerce-logos">
             <img src="@/assets/shopify.png" alt="Shopify Logo">
             <img src="@/assets/bigcommerce.png" alt="Bigcommerce Logo">
@@ -64,7 +64,7 @@
           <p class="text-body1 text-center text-weight-medium q-mt-lg">Has expert knowledge of E-Commerce development platforms and understands how to integrate with third party API solutions to gather business metrics and deliver value to stakeholders.</p>
         </div>
       </div>
-      <div class="row justify-center items-center">
+      <div class="row justify-center items-center" style="margin-top: 3rem;">
         <div class="col-12 col-md-6">
           <h3 class="text-center">Analytics and Tagging</h3>
         </div>
