@@ -109,7 +109,7 @@ export default {
     display: table;
     content: '';
     position: absolute;
-    left: 75px;
+    right: 20%;
     width: 400px;
     height: 400px;
     border: 1px dotted rgba(139, 139, 139, 0.338);

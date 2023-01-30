@@ -88,6 +88,11 @@ footer {
     background-color: #f5faff;
 }
 
+.skillsets {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 .skillsets h2 {
     margin-bottom: 6rem;
 }
@@ -95,6 +100,8 @@ footer {
 .value-prop-images {
     position: relative;
     height: 400px;
+    /* width: 500px; */
+    margin: 0 auto;
 }
 
 .value-prop-images img {
@@ -112,7 +119,7 @@ footer {
 .value-prop-images img:nth-child(1) {
     position: absolute;
     top: 0;
-    left: 22%;
+    left: 25%;
 }
 
 .value-prop-images img:nth-child(2) {
@@ -124,7 +131,7 @@ footer {
 .value-prop-images img:nth-child(3) {
     position: absolute;
     top: 26%;
-    left: 39%;
+    left: 43%;
 }
 
 .value-prop-images img:nth-child(4) {
