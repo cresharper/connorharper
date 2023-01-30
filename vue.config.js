@@ -3,7 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: [
     'quasar'
   ],
-
+  publicPath: './',
   pluginOptions: {
     quasar: {
       importStrategy: 'kebab',

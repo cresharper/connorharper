@@ -1,11 +1,11 @@
 <template>
     <TopNav/>
-    <section class="q-mt-lg q-pa-md">
+    <section class="summary q-mt-lg q-pa-md">
       <div class="row justify-center">
         <div class="col-12 col-md-6">
           <h1>A NY based Tech Professional</h1>
         </div>
-        <div class="relative-position col-12 col-md-2">
+        <div class="my-pic relative-position col-12 col-md-2">
           <div class="headshot-image-container">
             <img class="connor-headshot" src="@/assets/me.png" alt="A picture of me" />
           </div>
@@ -121,6 +121,20 @@ export default {
     }
     .ecommerce-skills {
       flex-direction: column-reverse;
+    }
+    .summary .my-pic {
+      margin-left: 60%;
+    }
+    .value-prop-images {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      height: fit-content;
+    }
+    .value-prop-images img {
+      position: relative;
+      top: 0;
+      left: 0;
     }
   }
 </style>
