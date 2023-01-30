@@ -76,6 +76,57 @@ footer {
     background-color: #f5faff;
 }
 
+.skillsets h2 {
+    margin-bottom: 6rem;
+}
+
+.value-prop-images {
+    position: relative;
+    height: 400px;
+}
+
+.value-prop-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.ecommerce-logos img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.value-prop-images img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 22%;
+}
+
+.value-prop-images img:nth-child(2) {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.value-prop-images img:nth-child(3) {
+    position: absolute;
+    top: 26%;
+    left: 39%;
+}
+
+.value-prop-images img:nth-child(4) {
+    position: absolute;
+    top: 68%;
+    left: 13%;
+}
+
+.value-prop-images img:nth-child(5) {
+    position: absolute;
+    top: 68%;
+    left: 36%;
+}
+
 /* CONTACT */
 
 #contact_form {

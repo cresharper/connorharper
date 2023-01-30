@@ -1,14 +1,7 @@
 <template>
+  <!-- https://vuejsexamples.com/a-cute-timeline-component-for-vue-js/ -->
     <TopNav/>
     <h1 class="text-center">MY WORK</h1>
-    <div class="q-mt-lg q-pa-md">
-      <h2 class="text-center">Web Development</h2>
-      <div class="row justify-center">
-        <div class="col-10">
-          <img src="@/assets/fq-careers.png" alt="FQ CAREERS">
-        </div>
-      </div>
-    </div>
     <FooterArea/>
 </template>
   
