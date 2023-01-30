@@ -54,9 +54,6 @@ export default {
                 {company: 'Barnes & Noble', companyLogo: 'Logo-Barnes-Noble.jpg', date: '2017 - 2019', blurb: 'Re-developed the front end for SparkNotes, a leading educational resource for high school and college students. Working closely with Graphic and UX designers to implement the new FrontEnd. Assisted in UAT testing for new site design. Working closely with technologies ranging from Sass, Webpack and Gulp. Rapidly gained familiarity with Node.JS and Express.', icon: 'pi pi-check'},
                 {company: 'Master & Dynamic', companyLogo: 'Master_&_Dynamic_logo.jpg', date: '2016-2017', blurb: 'Lead all Web Development initiatives for fast growing luxury headphones company. Increased Google PageSpeed score by 30+ points. Established best practices for development work, implemented agile workflow. Wrote clear concise Front End Code and Markup (HTML5, CSS3, JS) that is scalable and follows best conventions. Offered valuable insight into UX of site based on analytics data for best conversion rates.', icon: 'pi pi-check'},
                 {company: 'Dynatrace', companyLogo: 'dynatrace_web.png', date: 'March 2016 - September 2016', blurb: 'Worked closely with the marketing team to design and develop an effective user experience for the Dynatrace website that drives conversions. Wrote custom CSS framework that is frequently used on Front End projects. Optimize/reduce code base by thousands of lines to ensure fast load times for web pages. Collaborated with the development team to write scalable and clean code along with working with the Graphic Designers to build out the Front End. Ensured quality of digital assets are high by following through on a thorough debugging process. Assisted in writing clear, concise copy that demonstrates the brand well.', icon: 'pi pi-check'},
-            ],
-            events2: [
-                "2020", "2021", "2022", "2023"
             ]
         }
     }
@@ -64,7 +61,7 @@ export default {
 </script>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss">
   @import 'primevue/resources/primevue.min.css';
   @import 'primevue/resources/themes/saga-blue/theme.css';
   @import 'primeicons/primeicons.css';
@@ -74,6 +71,14 @@ export default {
   }
   .position-footnote {
     padding: 10px 0;
+  }
+
+  @media screen and (max-width: 960px) {
+    .p-timeline-event {
+      flex-direction: row-reverse;
+    }
+    .p-timeline-vertical.p-timeline-alternate .p-timeline-event:nth-child(even) .p-timeline-event-content {text-align: left;}
+    .p-timeline-event-opposite {display: none;}
   }
 </style>
   
