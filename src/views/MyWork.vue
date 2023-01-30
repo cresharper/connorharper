@@ -19,7 +19,7 @@
 			<template #content>
 				<img v-if="slotProps.item.companyLogo" :src="require('@/assets/' + slotProps.item.companyLogo)" :alt="slotProps.item.name" width="200" />
         <div v-if="slotProps.item.company === 'Naadam'" class="position-footnote">(Contract Position)</div>
-        <div v-if="slotProps.item.company === 'Conductor'" class="position-footnote">(Impacted by RIF due to WeWork buyout)</div>
+        <div v-if="slotProps.item.company === 'Conductor'" class="position-footnote">(Impacted by RIF due to <a href="https://techcrunch.com/2019/12/12/condutor-wework-buyout/">WeWork buyback</a>)</div>
 				<p>{{slotProps.item.blurb}}</p>
 				<!-- <Button label="Read more" class="p-button-text"></Button> -->
 			</template>
@@ -59,6 +59,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+h1 {margin-top: 120px;}
+</style>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">

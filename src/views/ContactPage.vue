@@ -35,4 +35,7 @@ export default {
   /* h1 {
     color: red;
   } */
+  #submit_btn {
+    margin-top: 2rem;
+  }
 </style>

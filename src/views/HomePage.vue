@@ -42,12 +42,12 @@
           </div>
         </div>
       </div>
-      <div class="row justify-center  items-center q-mb-lg">
+      <div class="row justify-center items-center q-mb-lg">
         <div class="col col-md-6">
           <p class="text-body1 text-center text-weight-medium q-mt-lg">7+ years of professional experience working in a variety of Front End technologies. Is known for producing at a rapid pace and is able to change course quickly in an agile environment. Has a proven track record of understanding end users and formulating creative solutions to problems.</p>
         </div>
       </div>
-      <div class="row justify-center items-center">
+      <div class="ecommerce-skills row justify-center items-center">
         <div class="col-12 col-md-5">
           <div class="value-prop-images ecommerce-logos">
             <img src="@/assets/shopify.png" alt="Shopify Logo">
@@ -56,7 +56,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6">
-          <h3>E-Commerce Development and Integrations</h3>
+          <h3 class="text-center">E-Commerce Development and Integrations</h3>
         </div>
       </div>
       <div class="row justify-center items-center q-mb-lg">
@@ -104,6 +104,24 @@ export default {
 <style scoped>
   h1 {
     color: #000;
+  }
+  /* .value-prop-images:before {
+    display: table;
+    content: '';
+    position: absolute;
+    left: 75px;
+    width: 400px;
+    height: 400px;
+    border: 1px dotted rgba(139, 139, 139, 0.338);
+    border-radius: 100%;
+  } */
+  @media screen and (max-width: 980px) {
+    h1 {
+      text-align: center;
+    }
+    .ecommerce-skills {
+      flex-direction: column-reverse;
+    }
   }
 </style>
   
