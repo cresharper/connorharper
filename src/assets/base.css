@@ -14,12 +14,16 @@ html, body {
 }
 
 @media screen and (max-width: 960px) {
+    #app h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
     .menu-and-logo {
         position: fixed;
         width: 100%;
         top: 0;
         margin: 0;
-        padding: 15px 3rem;
+        padding: 15px 1rem;
         background-color: #fff;
         z-index: 5;
     }

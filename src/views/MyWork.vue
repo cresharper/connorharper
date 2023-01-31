@@ -1,7 +1,7 @@
 <template>
   <!-- https://www.primefaces.org/primevue/timeline -->
   <TopNav/>
-  <h1 class="text-center">MY EXPERIENCE</h1>
+  <h1 class="text-center">My Experience</h1>
   <Timeline :value="events" align="alternate" class="customized-timeline">
 	<template #marker="slotProps">
 		<span class="custom-marker" :style="{backgroundColor: slotProps.item.color}">

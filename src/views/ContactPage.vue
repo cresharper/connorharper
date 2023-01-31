@@ -1,6 +1,6 @@
 <template>
     <TopNav />
-    <h1 class="text-center">CONTACT</h1>
+    <h1 class="text-center">Contact</h1>
     <div class="q-mt-lg q-pa-md">
       <div class="row justify-center">
         <div class="col-6">
