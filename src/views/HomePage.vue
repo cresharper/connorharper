@@ -125,13 +125,13 @@ export default {
     .summary .my-pic {
       margin-left: 50%;
     }
-    .value-prop-images {
+    .skillsets .value-prop-images {
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-wrap: wrap;
     }
-    .value-prop-images img {
+    .skillsets .value-prop-images img {
       position: relative;
       top: 0;
       left: 0;
