@@ -9,5 +9,5 @@ export default {
 </script>
 
 <style>
-  @import './assets/base.css'
+  @import './assets/base.css';
 </style>
