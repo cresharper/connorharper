@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="ecommerce-skills row justify-center items-center">
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-6">
           <div class="value-prop-images ecommerce-logos">
             <img src="@/assets/shopify.png" alt="Shopify Logo">
             <img src="@/assets/bigcommerce.png" alt="Bigcommerce Logo">
@@ -70,9 +70,9 @@
         </div>
         <div class="col-12 col-md-6">
           <div class="value-prop-images">
-            <img src="@/assets/GAnalytics.png" alt="Google Analytics Logo">
+            <img src="@/assets/Google-a.png" alt="Google Analytics Logo">
             <img src="@/assets/gtm.svg" alt="Google Tag Manager Logo">
-            <img src="@/assets/Adobe-Analytics.png" alt="Adobe Analytics Logo">
+            <img src="@/assets/Adobe-a.png" alt="Adobe Analytics Logo">
             <img src="@/assets/google-optimize.png" alt="Google Optimize Logo">
             <img src="@/assets/search-console.png" alt="Search Console Logo">
           </div>
@@ -105,17 +105,7 @@ export default {
   h1 {
     color: #000;
   }
-  /* .value-prop-images:before {
-    display: table;
-    content: '';
-    position: absolute;
-    right: 20%;
-    width: 400px;
-    height: 400px;
-    border: 1px dotted rgba(139, 139, 139, 0.338);
-    border-radius: 100%;
-  } */
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 1024px) {
     h1 {
       text-align: center;
     }

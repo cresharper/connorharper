@@ -4,13 +4,7 @@
     <div class="q-mt-lg q-pa-md">
       <div class="row justify-center">
         <div class="col-6">
-          <q-form id="contact_form" action="contactme.php" method="post">
-			<div id="contact_results"></div>
-				<q-input type="text" name="name" id="name" required="true" placeholder="Name (required)" />
-				<q-input type="email" name="email" id="email" required="true" placeholder="E-mail (required)" />
-				<q-input name="message" id="message" class="text-area-field" required="true" placeholder="Your Message (required)"></q-input>
-				<q-btn type="submit" label="Submit" name="submit-button" id="submit_btn" />
-			</q-form>
+          <p class="text-body1 text-center">I am best reached via <a class="cl cl-email" href="mailto:connor@connorharper.com">email</a> or <a class="cl cl-linkedin" href="https://www.linkedin.com/in/connor-harper-1900aa4b/">LinkedIn</a></p>
         </div>
       </div>
     </div>
@@ -31,10 +25,13 @@ export default {
 </script>
 
 <style scoped>
-  @media screen and (max-width: 960px) {
-    h1 {margin-top: 120px;}
+@media screen and (max-width: 960px) {
+  h1 {
+    margin-top: 120px;
   }
-  #submit_btn {
+}
+
+#submit_btn {
     margin-top: 2rem;
-  }
+}
 </style>

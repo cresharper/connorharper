@@ -10,7 +10,7 @@ const routes = [
         component: HomePage
     },
     {
-        path: '/my-work',
+        path: '/my-experience',
         name: 'MyWork',
         component: MyWork
     },

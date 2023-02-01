@@ -1,3 +1,35 @@
+:root {
+    --contact-link-color: #00a8ff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    position: relative;
+    color: var(--contact-link-color);
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-radius: 4px;
+    background-color: var(--contact-link-color);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+a:not(.logo-link):hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
 html, body {
     overflow-x: hidden;
     width: 100%;
@@ -106,7 +138,7 @@ footer {
 }
 
 .skillsets {
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -142,31 +174,31 @@ footer {
 .value-prop-images img:nth-child(1) {
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 203px;
 }
 
 .value-prop-images img:nth-child(2) {
     position: absolute;
     top: 25%;
-    left: 8%;
+    left: 62px;
 }
 
 .value-prop-images img:nth-child(3) {
     position: absolute;
     top: 26%;
-    left: 43%;
+    left: 350px;
 }
 
 .value-prop-images img:nth-child(4) {
     position: absolute;
     top: 68%;
-    left: 13%;
+    left: 114px;
 }
 
 .value-prop-images img:nth-child(5) {
     position: absolute;
     top: 68%;
-    left: 36%;
+    left: 290px;
 }
 
 /* CONTACT */
