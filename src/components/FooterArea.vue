@@ -1,12 +1,17 @@
 <template>
     <footer class="q-mt-lg q-mb-lg">
-        (C) 2023 Connor Harper Web Development and Design
+        (C) <span v-html="currentYear"></span> Connor Harper Web Development and Design
     </footer>    
 </template>
   
   <script>
   export default {
-    name: 'FooterArea'
+    name: 'FooterArea',
+    data() {
+      return {
+        currentYear: new Date().getFullYear()
+      }
+    }
   }
   </script>
   
