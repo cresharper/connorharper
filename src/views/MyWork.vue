@@ -18,7 +18,7 @@
         <p v-if="slotProps.item.jobTitle" class="text-body1 text-weight-medium">{{ slotProps.item.jobTitle }}</p>
         <div v-if="slotProps.item.companyLogo === 'naadam.png'" class="position-footnote">(Contract Position)</div>
         <div v-if="slotProps.item.companyLogo === 'conductor.png'" class="position-footnote">(Impacted by RIF due to <a href="https://techcrunch.com/2019/12/12/condutor-wework-buyout/">WeWork buyback</a>)</div>
-				<p>{{slotProps.item.blurb}}</p>
+				<p v-html="slotProps.item.blurb"></p>
 				<!-- <Button label="Read more" class="p-button-text"></Button> -->
 			</template>
 		</Card>
@@ -33,6 +33,14 @@ import FooterArea from '../components/FooterArea.vue'
 // import Button from 'primevue/button';
 import Card from 'primevue/card';
 import Timeline from 'primevue/timeline';
+import nycFinanceHtml from '@/assets/html/nycFinance.html';
+import amyrisHtml from '@/assets/html/amyrisHtml.html';
+import floqastHtml from '@/assets/html/floqastHtml.html';
+import naadamHtml from '@/assets/html/naadamHtml.html';
+import conductorHtml from '@/assets/html/conductorHtml.html';
+import sparknotesHtml from '@/assets/html/sparknotesHtml.html';
+import masterdynamicHtml from '@/assets/html/masterdynamicHtml.html';
+import dynatraceHtml from '@/assets/html/dynatraceHtml.html';
 
 export default {
     name: 'MyWork',
@@ -45,13 +53,62 @@ export default {
     data() {
         return {
             events: [
-                {jobTitle: 'E-Commerce Operations Engineer', companyLogo: 'logo-amyris-colour.svg', date: '2022 - Present', blurb: 'Maintain tagging and analytics for major brands including but not limited to Biossance, JVN Hair and Pipette Baby. Migrated 50+ tags from these brands to Google Tag Manager. Build internal dashboard with Vue.JS and node to integrate with third party APIs (DataDog, Tag Inspector) to display critical website metrics, including a visual map of tags installed on the site and how they are loaded. Use this data to audit Shopify stores to improve site speed and overall performance (boost core web vital scores from 40-50 to 80). Give presentations to executive shareholders on website metrics and performance and give guidance on how to achieve operational excellence.', icon: 'pi pi-cog'},
-                {jobTitle: 'Web Developer', companyLogo: 'FQ-logo.png', date: '2020-2022', blurb: 'Wordpress and PHP Web Development building out highly converting marketing pages. Gather project requirements from stakeholders, navigate ambiguity, and act as technical project manager and define scope and technical feasibility. Manage and configure A/B tests to evaluate user metrics and optimize website for maximum business value – boost signups for demos by 15%.', icon: 'pi pi-check'},
-                {jobTitle: 'Shopify Developer', companyLogo: 'naadam.png', date: 'March 2020 - August 2020', blurb: 'Shopify related E-Commerce Development for luxury cashmere sweater brand - re-build Shopify theme from ground up utilizing ThemeKit. Managed integrations with third party APIs, coded custom checkout scripts for sale campaigns.', icon: 'pi pi-check'},
-                {jobTitle: 'Web Developer', companyLogo: 'conductor.png', date: 'December 2019 - February 2020', blurb: 'Lead all Wordpress development initiatives for previously WeWork owned Conductor.com – conduct A/B testing on homepage and develop changes which resulted in a 30% increase in conversion rate.', icon: 'pi pi-check'},
-                {jobTitle: 'Front End Developer', companyLogo: 'Logo-Barnes-Noble.jpg', date: '2017 - 2019', blurb: 'Re-developed the front end for SparkNotes, a leading educational resource for high school and college students. Working closely with Graphic and UX designers to implement the new FrontEnd. Assisted in UAT testing for new site design. Working closely with technologies ranging from Sass, Webpack and Gulp. Rapidly gained familiarity with Node.JS and Express.', icon: 'pi pi-check'},
-                {jobTitle: 'Shopify Front End Developer', companyLogo: 'Master_&_Dynamic_logo.jpg', date: '2016-2017', blurb: 'Lead all Web Development initiatives for fast growing luxury headphones company. Increased Google PageSpeed score by 30+ points. Established best practices for development work, implemented agile workflow. Wrote clear concise Front End Code and Markup (HTML5, CSS3, JS) that is scalable and follows best conventions. Offered valuable insight into UX of site based on analytics data for best conversion rates.', icon: 'pi pi-check'},
-                {jobTitle: 'Marketing Web Developer', companyLogo: 'dynatrace_web.png', date: 'March 2016 - September 2016', blurb: 'Worked closely with the marketing team to design and develop an effective user experience for the Dynatrace website that drives conversions. Wrote custom CSS framework that is frequently used on Front End projects. Optimize/reduce code base by thousands of lines to ensure fast load times for web pages. Collaborated with the development team to write scalable and clean code along with working with the Graphic Designers to build out the Front End. Ensured quality of digital assets are high by following through on a thorough debugging process. Assisted in writing clear, concise copy that demonstrates the brand well.', icon: 'pi pi-check'},
+                {
+                  jobTitle: 'Digital Web Product Manager', 
+                  companyLogo: 'Nyc_finance_logo_website.png', 
+                  date: '2023 - Present', 
+                  blurb: nycFinanceHtml,
+                  icon: 'pi pi-cog'
+                },
+                {
+                  jobTitle: 'E-Commerce Operations Engineer', 
+                  companyLogo: 'logo-amyris-colour.svg', 
+                  date: '2022 - 2023', 
+                  blurb: amyrisHtml,
+                  icon: 'pi pi-check'
+                },
+                {
+                  jobTitle: 'Web Developer', 
+                  companyLogo: 'FQ-logo.png', 
+                  date: '2020-2022', 
+                  blurb: floqastHtml,
+                  icon: 'pi pi-check'
+                },
+                {
+                  jobTitle: 'Shopify Developer', 
+                  companyLogo: 'naadam.png', 
+                  date: 'March 2020 - August 2020', 
+                  blurb: naadamHtml,
+                  icon: 'pi pi-check'
+                },
+                {
+                  jobTitle: 'Web Developer', 
+                  companyLogo: 'conductor.png', 
+                  date: 'December 2019 - February 2020', 
+                  blurb: conductorHtml,
+                  icon: 'pi pi-check'
+                },
+                {
+                  jobTitle: 'Front End Developer', 
+                  companyLogo: 'Logo-Barnes-Noble.jpg', 
+                  date: '2017 - 2019', 
+                  blurb: sparknotesHtml,
+                  icon: 'pi pi-check'
+                },
+                {
+                  jobTitle: 'Shopify Front End Developer', 
+                  companyLogo: 'Master_&_Dynamic_logo.jpg', 
+                  date: '2016-2017', 
+                  blurb: masterdynamicHtml,
+                  icon: 'pi pi-check'
+                },
+                {
+                  jobTitle: 'Marketing Web Developer', 
+                  companyLogo: 'dynatrace_web.png', 
+                  date: 'March 2016 - September 2016', 
+                  blurb: dynatraceHtml,
+                  icon: 'pi pi-check'
+                },
             ]
         }
     }
@@ -75,6 +132,10 @@ h1 {margin-top: 120px;}
   }
   .position-footnote {
     padding: 10px 0;
+  }
+
+  .p-card-content:nth-child(even) {
+    text-align: left;
   }
 
   @media screen and (max-width: 960px) {
