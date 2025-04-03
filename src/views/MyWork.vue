@@ -30,9 +30,9 @@
 <script>
 import TopNav from '../components/TopNav.vue'
 import FooterArea from '../components/FooterArea.vue'
-// import Button from 'primevue/button';
 import Card from 'primevue/card';
 import Timeline from 'primevue/timeline';
+import dowJonesHtml from '@/assets/html/dowJonesHtml.html'
 import nycFinanceHtml from '@/assets/html/nycFinance.html';
 import amyrisHtml from '@/assets/html/amyrisHtml.html';
 import floqastHtml from '@/assets/html/floqastHtml.html';
@@ -54,11 +54,18 @@ export default {
         return {
             events: [
                 {
+                  jobTitle: 'Lead Software Engineer - Web/SEO', 
+                  companyLogo: 'Dow_Jones_Logo.svg', 
+                  date: '2025 - Present', 
+                  blurb: dowJonesHtml,
+                  icon: 'pi pi-cog'
+                },
+                {
                   jobTitle: 'Digital Web Product Manager', 
                   companyLogo: 'Nyc_finance_logo_website.png', 
-                  date: '2023 - Present', 
+                  date: '2023 - 2025', 
                   blurb: nycFinanceHtml,
-                  icon: 'pi pi-cog'
+                  icon: 'pi pi-check'
                 },
                 {
                   jobTitle: 'E-Commerce Operations Engineer', 
