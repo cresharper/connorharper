@@ -18,7 +18,7 @@
         <p v-if="slotProps.item.jobTitle" class="text-body1 text-weight-medium">{{ slotProps.item.jobTitle }}</p>
         <div v-if="slotProps.item.companyLogo === 'naadam.png'" class="position-footnote">(Contract Position)</div>
         <div v-if="slotProps.item.companyLogo === 'conductor.png'" class="position-footnote">(Impacted by RIF due to <a href="https://techcrunch.com/2019/12/12/condutor-wework-buyout/">WeWork buyback</a>)</div>
-				<p v-html="slotProps.item.blurb"></p>
+				<div v-html="slotProps.item.blurb"></div>
 				<!-- <Button label="Read more" class="p-button-text"></Button> -->
 			</template>
 		</Card>
