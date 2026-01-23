@@ -130,9 +130,9 @@ h1 {margin-top: 120px;}
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-  @import '~primevue/resources/primevue.min.css';
-  @import '~primevue/resources/themes/saga-blue/theme.css';
-  @import '~primeicons/primeicons.css';
+  @import 'primevue/resources/primevue.min.css';
+  @import 'primevue/resources/themes/saga-blue/theme.css';
+  @import 'primeicons/primeicons.css';
 
   .position-footnote {
     font-size: 12px;
